@@ -1,0 +1,74 @@
+/* Education Section */
+.education {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #03081f; /* Fallback dark background */
+    background-image: url('images/education-background.jpg'); /* Your background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the background image */
+    color: #fff;
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+}
+
+.education h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff007f; /* Heading color */
+}
+
+.education-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.education-column {
+    flex: 1;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.education-box {
+    background-color: rgba(30, 30, 46, 0.8); /* Semi-transparent overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.education-content {
+    text-align: left;
+}
+
+.year {
+    font-size: 14px;
+    color: #00ffff; /* Year color */
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff007f; /* Title color */
+    margin-bottom: 15px;
+}
+
+.education-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ccc; /* Light gray text for description */
+    margin-bottom: 20px;
+}
+
+.education-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00ffff; /* Highlighted text color */
+    margin-bottom: 10px;
+}
+
+.education-content i {
+    margin-right: 8px;
+    color: #ff007f; /* Icon color */
+}
